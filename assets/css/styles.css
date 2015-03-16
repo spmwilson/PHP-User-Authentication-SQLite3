@@ -1,0 +1,128 @@
+/* Main LESS Document */
+#csufooter {
+	height: 50px;
+}
+#csuheader {
+	height: 100px;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+.group-title {
+  color: #156140;
+  font-size: 36px;
+  font-weight: 400;
+  font-family:  Arial, sans-serif;
+}
+@media (min-width: 992px) {
+  .group-title {
+    line-height: 84px;
+  }
+}
+@media (max-width: 991px) {
+  .group-title {
+    line-height: 40px;
+  }
+}
+.group-title a,
+.group-title a:hover,
+.group-title a:visited {
+  color: #156140;
+  text-decoration: none;
+}
+@media (min-width: 992px) {
+  .header-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+nav.navbar {
+  border-top: 3px solid #eb7c00;
+}
+.navbar-collapse {
+  padding-left: 0px;
+}
+@media (max-width: 768px) {
+  .navbar-collapse {
+    z-index: 1000;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav > li {
+    margin-top: -3px;
+    border-top: 3px solid #eb7c00;
+  }
+  .navbar-nav > li a {
+    padding-bottom: 18px;
+  }
+}
+.navbar-nav > li a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-nav > li.active {
+  border-top: 3px solid #156140;
+}
+footer {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #0f462e;
+  color: #fff;
+  font-size: 11px;
+}
+@media (min-width: 768px) {
+  footer {
+   
+    height: 70px;
+    width: 100%;
+   
+  }
+}
+footer a,
+footer a:hover,
+footer a:visited {
+  color: white;
+}
+footer div.csu-logo {
+  padding-right: 12px;
+  margin-right: 12px;
+  border-right: 1px solid #fff;
+  border: 0;
+  
+}
+
+h1, h2{
+  font-weight:normal;
+}
+#page{
+    min-height:100%;
+    position:relative;
+}
+main{
+  padding-bottom:84px;
+}
+
+
+input, select, option{
+	padding:3px;
+	width:150px;
+	display:inline-block;
+}
+textarea{
+	vertical-align: top;
+	width:150px;
+	padding:3px;
+}
+
+.error{
+	color:red;
+}
+h3.error{
+	margin-bottom:0px;
+}
+ ul.error{
+	margin-top:5px;
+}
